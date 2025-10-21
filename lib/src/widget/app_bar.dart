@@ -178,7 +178,7 @@ class NeumorphicAppBarState extends State<NeumorphicAppBar> {
 
     Widget? title = widget.title;
     if (title != null) {
-      final AppBarTheme appBarTheme = AppBarTheme.of(context);
+      //final AppBarThemeData appBarTheme = AppBarThemeData.of(context);
       title = DefaultTextStyle(
         style: (Theme.of(context).textTheme.headlineLarge!)
             .merge(widget.textStyle ?? nTheme?.current?.appBarTheme.textStyle),
